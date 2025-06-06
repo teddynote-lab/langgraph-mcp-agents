@@ -1,6 +1,6 @@
 # LangGraph Agents + MCP
 
-[![English](https://img.shields.io/badge/Language-English-blue)](README.md) [![Korean](https://img.shields.io/badge/Language-한국어-red)](README_KOR.md)
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 
 [![GitHub](https://img.shields.io/badge/GitHub-langgraph--mcp--agents-black?logo=github)](https://github.com/teddylee777/langgraph-mcp-agents)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -203,7 +203,7 @@ Finally, click the "Apply" button to apply the changes to initialize the agent w
 
 For developers who want to learn more deeply about how MCP and LangGraph integration works, we provide a comprehensive Jupyter notebook tutorial:
 
-- Link: [MCP-HandsOn-KOR.ipynb](./MCP-HandsOn-KOR.ipynb)
+- Link: [MCP-HandsOn.ipynb](./MCP-HandsOn.ipynb)
 
 This hands-on tutorial covers:
 
