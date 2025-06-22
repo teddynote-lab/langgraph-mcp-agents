@@ -430,15 +430,15 @@ async def initialize_session(mcp_config=None):
         bool: 초기화 성공 여부
     """
     with st.spinner("🔄 MCP 서버에 연결 중..."):
-        # 먼저 기존 클라이언트를 안전하게 정리
         await cleanup_mcp_client()
 
         if mcp_config is None:
-            # config.json 파일에서 설정 로드
             mcp_config = load_config_from_json()
+
+        # ✅ 수정된 부분
         client = MultiServerMCPClient(mcp_config)
-        await client.__aenter__()
-        tools = client.get_tools()
+        tools = await client.get_tools()  # ⬅️ 여기가 핵심 수정
+
         st.session_state.tool_count = len(tools)
         st.session_state.mcp_client = client
 
