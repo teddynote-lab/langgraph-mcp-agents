@@ -1,8 +1,8 @@
 {
-  "get_current_time": {
+  "translate_lauguage": {
     "command": "python",
     "args": [
-      "./mcp_server_time.py"
+      "./google_translate_mcp.py"
     ],
     "transport": "stdio"
   }
