@@ -1,3 +1,5 @@
+[![MSeeP.ai Security Assessment Badge](https://mseep.net/pr/teddynote-lab-langgraph-mcp-agents-badge.png)](https://mseep.ai/app/teddynote-lab-langgraph-mcp-agents)
+
 # LangGraph Agents + MCP
 
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md) [![Korean](https://img.shields.io/badge/Language-한국어-red)](README_KOR.md)
